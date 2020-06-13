@@ -7,7 +7,7 @@ const errorController = require('./controllers/error');
 
 const app = express();
 
-app.set('view engine', 'ejs');
+app.set('view engine', 'ejs'); //comment
 app.set('views', 'views');
 
 const adminRoutes = require('./routes/admin');
