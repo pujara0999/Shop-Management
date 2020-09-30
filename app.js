@@ -22,3 +22,7 @@ app.use(shopRoutes);
 app.use(errorController.get404);
 
 app.listen(3000);
+
+
+//this is a comment in js
+
